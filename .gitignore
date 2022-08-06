@@ -35,6 +35,18 @@ out/
 
 ### VS Code ###
 .vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
 
 ### MacOs ###
 .DS_Store
+
+# Mysql data
+mysql/db/mysql/
+mysql/db/mysql/*
+!mysql/db/mysql/.lock
+
